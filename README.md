@@ -14,4 +14,11 @@ chmod +x *.sh
 
 ```
 ./install_dep.sh
+./sign_setup.sh
+./clone_repo.sh
+```
+```
+cd /root/pfscense
+screen -S build
+./build.sh --setup-poudriere
 ```
